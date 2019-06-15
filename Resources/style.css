@@ -1,0 +1,143 @@
+/* Universal Styles */
+
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  width: 100%;
+}
+
+h2 h3 h4 {
+  font-size: 36px;
+  display: block;
+  font-weight: bold;
+  padding: 10px;
+  background-color: black;
+}
+
+a {
+  color: seashell;
+  opacity: 0.9;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div {display: block;}
+
+
+/* Menu */
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.content {
+  display: flex;
+  align-content: center;
+  padding-top: 69px;
+}
+
+/* MISSION SECTION */
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+  justify-content: center;
+}
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  padding-top: 70px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  flex-wrap: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  display: block;
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.item span {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+/* LOCATION SECTION */
+
+#locations {
+  padding-top: 70px;
+  height: 500px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  justify-content: center;
+  margin-left: auto;
+margin-right: auto;
+}
+
+#locations
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  background-color: black;
+  flex-basis: 280px;
+  margin: 5px 20px;
+}
+
+.locations h2 {
+  margin-top: 20px;
+}
+
+/* FOOTER SECTION */
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
